@@ -28,18 +28,12 @@ url = "https://www.imdb.com/title/tt1392214/"
 
 [[sections]]
 title = "Links"
-description = "Look for me on these websites"
+description = "This is where I am on the internet"
 direction = "row"
 item_style = "filled"
 [[sections.items]]
-title = "Instagram"
-url = "https://www.instagram.com/jakegyllenhaal"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/pacrob/"
 [[sections.items]]
-title = "IMDb"
-url = "https://www.imdb.com/name/nm0350453/"
-[[sections.items]]
-title = "Wikipedia"
-url = "https://en.wikipedia.org/wiki/Jake_Gyllenhaal"
-[[sections.items]]
-title = "Rotten Tomatoes"
-url = "https://www.rottentomatoes.com/celebrity/jake_gyllenhaal"
+title = "Github"
+url = "https://github.com/pacrob"
