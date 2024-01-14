@@ -9,22 +9,26 @@ gtag_id = ""
 base_url = "https://pacrob.github.io/pacrob"
 
 [[sections]]
-title = "Movies"
-description = "Here are some of my movies"
+title = "Things I Like"
+description = "Here are some of my favorite things"
 direction = "column"
 item_style = "outline"
 [[sections.items]]
-title = "Nightcrawler"
-description = "A mesmerizing thriller delving into the dark world of crime journalism"
-url = "https://www.imdb.com/title/tt2872718/"
+title = "Saturday Morning Breakfast Cereal"
+description = "A smart/funny comic about smart/funny stuff."
+url = "https://www.smbc-comics.com/"
 [[sections.items]]
-title = "Brokeback Mountain"
-description = "A groundbreaking romantic drama challenging societal expectations"
-url = "https://www.imdb.com/title/tt0388795/"
+title = "CrossFit"
+description = "A good way to get working out for someone who doesn't know where to start working out"
+url = "https://crossfit.com"
 [[sections.items]]
-title = "Prisoners"
-description = "A gripping thriller entangling a detective in a web of secrets during a kidnapping investigation"
-url = "https://www.imdb.com/title/tt1392214/"
+title = "Italki"
+description = "Talk to someone in another language!"
+url = "https://italki.com"
+[[sections.items]]
+title = "The Slavic Lit Pod"
+description = "Feel like you understand Tolstoy and Dostoevsky without having to do any of the work."
+url = "https://slaviclitpod.com"
 
 [[sections]]
 title = "Links"
