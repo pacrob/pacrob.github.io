@@ -10,6 +10,7 @@ type SidebarLink = {
 };
 
 const SECTION_LINKS: SidebarLink[] = [
+  { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
   { id: "projects", label: "Projects" },
 ];
@@ -82,6 +83,7 @@ export default function Sidebar() {
               className={`block py-1.5 hover:underline ${
                 active === link.id ? "text-indigo-600 font-medium" : ""
               }`}
+              aria-current={active === link.id ? "true" : undefined}
             >
               {link.label}
             </a>
