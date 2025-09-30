@@ -62,7 +62,7 @@ const projects = [
 export default function Page() {
   return (
     <>
-      <section id="about" className="max-w-3xl">
+      <section id="about" className="max-w-3xl mt-6 lg:mt-[5.5rem]">
         <h2 className="text-xs font-semibold tracking-widest text-slate-500 dark:text-slate-400">
           ABOUT
         </h2>
