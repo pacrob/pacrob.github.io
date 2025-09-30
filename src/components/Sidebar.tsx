@@ -12,6 +12,7 @@ type SidebarLink = {
 const SECTION_LINKS: SidebarLink[] = [
   { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
+  { id: "open_source", label: "Open Source" },
   { id: "projects", label: "Projects" },
 ];
 
@@ -102,7 +103,7 @@ export default function Sidebar() {
             Paul Robinson
           </h1>
           <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
-            Backend engineer — Python • Ethereum • Systems
+            I like to build things
           </p>
         </header>
 
