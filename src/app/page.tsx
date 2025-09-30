@@ -6,7 +6,7 @@ const experiences = [
       "Maintained and modernized 20+ Python libraries with 500K+ of weekly downloads.",
       "Standardized CI/CD, type checking, dependency management, and linting across established projects.",
       "Improved performance & correctness with async APIs and stricter encoding and decoding.",
-      "Directed structured releases (dependency-chain rollouts, betas, stakeholder outreach); served as trusted reviewer for community PRs."
+      "Directed structured releases (dependency-chain rollouts, betas, stakeholder outreach); served as trusted reviewer for community PRs.",
     ],
   },
   {
@@ -16,7 +16,7 @@ const experiences = [
       "Built React/TypeScript features for a security-camera platform (camera selection, feed management, video playback).",
       "Designed and maintained Flask backend services for the camera platform.",
       "Containerized backend services with Docker Compose, enabling scalable demo environments.",
-      "Delivered polished proof-of-concept prototypes in a small engineering team, recognized by senior management."
+      "Delivered polished proof-of-concept prototypes in a small engineering team, recognized by senior management.",
     ],
   },
 ];
@@ -106,31 +106,30 @@ export default function Page() {
 
         <ul className="mt-6 space-y-5">
           {openSource.map((project) => (
-          <article key={project.role} className="mt-8">
-
-            <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
-              <h3 className="font-medium">{`${project.role} - `}
-
-                <a
-                  href={project.href}
-                  className="underline decoration-slate-300 hover:decoration-indigo-600"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {project.name}
-                </a>{" "}
+            <article key={project.role} className="mt-8">
+              <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                <h3 className="font-medium">
+                  {`${project.role} - `}
+                  <a
+                    href={project.href}
+                    className="underline decoration-slate-300 hover:decoration-indigo-600"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {project.name}
+                  </a>{" "}
                 </h3>
 
-              <span className="text-sm text-slate-500 dark:text-slate-400">
-                {project.period}
-              </span>
-            </div>
-            <ul className="mt-2 list-disc space-y-1 pl-5">
-              {project.bullets.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-          </article>
+                <span className="text-sm text-slate-500 dark:text-slate-400">
+                  {project.period}
+                </span>
+              </div>
+              <ul className="mt-2 list-disc space-y-1 pl-5">
+                {project.bullets.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </article>
           ))}
         </ul>
       </section>
