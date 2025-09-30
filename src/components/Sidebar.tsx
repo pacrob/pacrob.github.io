@@ -123,7 +123,7 @@ export default function Sidebar() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/paul-robinson"
+                href="https://www.linkedin.com/in/pacrob"
                 className="hover:underline"
                 target="_blank"
                 rel="noreferrer"
@@ -132,7 +132,7 @@ export default function Sidebar() {
               </a>
             </li>
             <li>
-              <a href="mailto:paul@pacrob.com" className="hover:underline">
+              <a href="mailto:pacrob@proton.me" className="hover:underline">
                 Email
               </a>
             </li>
