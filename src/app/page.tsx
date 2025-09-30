@@ -3,16 +3,20 @@ const experiences = [
     role: "Software Engineer - Ethereum Foundation",
     period: "2021-2025",
     bullets: [
-      "Maintained & modernized 20+ Python libs; standardized CI/CD.",
-      "Improved ABI decoding performance & safety; coordinated downstream pinning.",
+      "Maintained and modernized 20+ Python libraries with 500K+ of weekly downloads.",
+      "Standardized CI/CD, type checking, dependency management, and linting across established projects.",
+      "Improved performance & correctness with async APIs and stricter encoding and decoding.",
+      "Directed structured releases (dependency-chain rollouts, betas, stakeholder outreach); served as trusted reviewer for community PRs."
     ],
   },
   {
     role: "Software Engineer - Seagate Technology",
     period: "2019-2021",
     bullets: [
-      "Built Flask services for a security camera platform and containerized backends.",
-      "Delivered React/TypeScript features and polished demos for stakeholders.",
+      "Built React/TypeScript features for a security-camera platform (camera selection, feed management, video playback).",
+      "Designed and maintained Flask backend services for the camera platform.",
+      "Containerized backend services with Docker Compose, enabling scalable demo environments.",
+      "Delivered polished proof-of-concept prototypes in a small engineering team, recognized by senior management."
     ],
   },
 ];
@@ -64,7 +68,7 @@ export default function Page() {
         </h2>
         <hr className="mt-2 h-px border-0 bg-slate-200 dark:bg-slate-800" />
         <p className="mt-6 leading-relaxed text-slate-700 dark:text-slate-300">
-          I’m a backend engineer working in Python and React. I
+          I’m a full-stack engineer working primarily in Python and React. I
           like clear APIs, strong tests, and boring, reliable infra. Currently
           exploring system design, distributed systems, and practical developer
           tooling. Based in Boulder/Longmont, CO.
