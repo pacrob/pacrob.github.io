@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       >
         <div className="min-h-dvh lg:grid lg:grid-cols-[280px_1fr] lg:gap-8">
           <Sidebar />
-          <main className="px-6 py-10 lg:ml-[280px] lg:px-12">{children}</main>
+          <main className="px-6 py-10 lg:px-12 lg:col-start-2">{children}</main>
         </div>
       </body>
     </html>

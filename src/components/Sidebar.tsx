@@ -95,7 +95,7 @@ export default function Sidebar() {
   );
 
   return (
-    <aside className="lg:fixed lg:inset-y-0 lg:w-[280px] lg:border-r lg:border-slate-200 dark:lg:border-slate-800 lg:py-10">
+    <aside className="lg:sticky lg:top-0 lg:h-screen lg:w-[280px] lg:border-r lg:border-slate-200 dark:lg:border-slate-800 lg:py-10">
       <div className="h-full flex flex-col px-6 py-8 lg:px-8 lg:py-10">
         <header>
           <h1 className="text-2xl font-semibold tracking-tight">
