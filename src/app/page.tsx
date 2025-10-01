@@ -39,24 +39,31 @@ const openSource = [
 
 const projects = [
   {
-    name: "Dynamic SDK Demo",
-    href: "https://github.com/pacrob/dynamic-sdk-demo",
+    name: "Coming Soon",
+    href: "https://pacrob.com",
     description:
-      "Minimal app showing embedded wallet + account abstraction flows.",
-    meta: "TypeScript, React, Vite",
+      "",
+    meta: "",
   },
-  {
-    name: "Gasless Minting Demo",
-    href: "https://github.com/pacrob/gasless-minting",
-    description: "ERC‑20/721 minting on Base Sepolia with relaying.",
-    meta: "Solidity, Python",
-  },
-  {
-    name: "Collab Editor",
-    href: "https://github.com/pacrob/collab-editor",
-    description: "Realtime doc editing experiment with WebSocket.",
-    meta: "TypeScript, WebSocket",
-  },
+  // {
+  //   name: "Dynamic SDK Demo",
+  //   href: "https://github.com/pacrob/dynamic-sdk-demo",
+  //   description:
+  //     "Minimal app showing embedded wallet + account abstraction flows.",
+  //   meta: "TypeScript, React, Vite",
+  // },
+  // {
+  //   name: "Gasless Minting Demo",
+  //   href: "https://github.com/pacrob/gasless-minting",
+  //   description: "ERC‑20/721 minting on Base Sepolia with relaying.",
+  //   meta: "Solidity, Python",
+  // },
+  // {
+  //   name: "Collab Editor",
+  //   href: "https://github.com/pacrob/collab-editor",
+  //   description: "Realtime doc editing experiment with WebSocket.",
+  //   meta: "TypeScript, WebSocket",
+  // },
 ];
 
 export default function Page() {
