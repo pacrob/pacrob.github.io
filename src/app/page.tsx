@@ -41,8 +41,7 @@ const projects = [
   {
     name: "Coming Soon",
     href: "https://pacrob.com",
-    description:
-      "",
+    description: "",
     meta: "",
   },
   // {
